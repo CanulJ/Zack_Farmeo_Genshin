@@ -1,0 +1,11 @@
+<h2 class="section-title">Antes de contratar nuestros servicios recuerda que:</h2>
+
+<div class="cards-container">
+  <div class="card" *ngFor="let rec of recomendaciones">
+    <p class="card-title">{{ rec.titulo }}</p>
+    <p class="small-desc">{{ rec.descripcion }}</p>
+    <div class="go-corner">
+      <div class="go-arrow">→</div>
+    </div>
+  </div>
+</div>
