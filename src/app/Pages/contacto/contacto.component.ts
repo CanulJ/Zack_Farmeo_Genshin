@@ -26,4 +26,10 @@ export class ContactoComponent {
     const texto = `¡Hola! Quiero más información del paquete: ${this.paqueteSeleccionado}`;
     return `https://api.whatsapp.com/send?phone=5219131169151&text=${encodeURIComponent(texto)}`;
   }
+
+  get facebookLink(): string {
+  return 'https://www.facebook.com/groups/1009666670968766/?ref=share&mibextid=NSMWBT'; // Pon aquí el link real
+}
+
+
 }
