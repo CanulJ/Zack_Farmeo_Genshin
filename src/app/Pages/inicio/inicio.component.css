@@ -416,4 +416,11 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .hero__container .cta {
+    margin-top: 45px;
+    position: relative;
+    z-index: 1;
+  }
+}
 
