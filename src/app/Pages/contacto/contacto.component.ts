@@ -31,5 +31,7 @@ export class ContactoComponent {
   return 'https://www.facebook.com/groups/1009666670968766/?ref=share&mibextid=NSMWBT'; // Pon aquí el link real
 }
 
-
+get TiktokLink(): string {
+  return 'https://www.tiktok.com/@ryoko_k_1?_t=ZS-8xhhPXTSVnU&_r=1'; // Pon aquí el link real
+}
 }
