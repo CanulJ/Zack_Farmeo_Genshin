@@ -23,7 +23,7 @@ export class ContactoComponent {
   }
 
   get whatsappLink(): string {
-    const texto = `¡Hola! Quiero más información del paquete: ${this.paqueteSeleccionado}`;
+    const texto = `¡Hola! Quiero más información del Servicio: ${this.paqueteSeleccionado}`;
     return `https://api.whatsapp.com/send?phone=529936024613&text=${encodeURIComponent(texto)}`;
   }
 
