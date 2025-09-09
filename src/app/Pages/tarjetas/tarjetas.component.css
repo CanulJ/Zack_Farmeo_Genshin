@@ -88,7 +88,7 @@
   border-radius: 12px;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(45deg, #a78bfa, #8b5cf6);
+  background: linear-gradient(45deg, #f3f3f3, #845df0);
 }
 
 .card__image img {

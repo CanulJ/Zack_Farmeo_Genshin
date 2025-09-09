@@ -11,7 +11,7 @@
       <div class="card__badge">Lo mas solicitado</div>
       <div class="card__image">
         <img
-          src="/img/PaimonC.png"
+          src="/img/LogoNetflix.png"
           alt="Paquete Básico"
           style="
             width: 100%;
@@ -22,15 +22,15 @@
         />
       </div>
       <div class="card__text" style="text-align: center">
-        <p class="card__title">Paquete Básico</p>
+        <p class="card__title">Netflix</p>
         <p class="card__description">
-          ✔️ 400 protogemas<br />
-          ✔️ 2-3 días de exploración<br />
+          ✔️ 1 Perfil - 65$<br />
+          ✔️ Cuenta completa (5 Perfiles) - 190$<br />
         </p>
       </div>
       <div class="card__footer">
-        <div class="card__price">$39.99 MXN</div>
-        <button (click)="abrirContacto('Paquete Básico')">
+        <div class="card__price">Todos 1 mes</div>
+        <button (click)="abrirContacto('Hola para el servicio Netflix')">
           <span>Solicitar</span>
         </button>
       </div>
@@ -45,7 +45,7 @@
       <div class="card__badge">Lo mas esperado</div>
       <div class="card__image">
         <img
-          src="/img/Paimon4.png"
+          src="/img/LogoDisney.png"
           alt="Paquete Deseos"
           style="
             width: 100%;
@@ -56,15 +56,16 @@
         />
       </div>
       <div class="card__text" style="text-align: center">
-        <p class="card__title">Paquete Deseos</p>
+        <p class="card__title">Disney +</p>
         <p class="card__description">
-          ✔️ 10 deseos<br />
-          ✔️ 1600 protogemas<br />
+          ✔️ Estandar - 32$<br />
+          ✔️ 1 Perfil - 63$<br />
+          ✔️ Cuenta completa - 160$<br />
         </p>
       </div>
       <div class="card__footer">
-        <div class="card__price">$89.99 MXN</div>
-        <button (click)="abrirContacto('Paquete Deseos')">
+        <div class="card__price">Todos 1 mes</div>
+        <button (click)="abrirContacto('Hola para el servicio de Disney+')">
           <span>Solicitar</span>
         </button>
       </div>
@@ -79,7 +80,7 @@
       <div class="card__badge">Nuevo</div>
       <div class="card__image">
         <img
-          src="/img/Paimon5.png"
+          src="/img/LogoHBO.png"
           alt="Paquete Premium"
           style="
             width: 100%;
@@ -90,21 +91,23 @@
         />
       </div>
       <div class="card__text" style="text-align: center">
-        <p class="card__title">Paquete Premium</p>
+        <p class="card__title">HBO Max</p>
         <p class="card__description">
-          ✔️ Eventos semanales<br />
-          ✔️ Misiones y cofres raros<br />
+          ✔️ 1 Perfil - 42$ <br />
+          ✔️ Completa -70$<br />
+          ✔️ Completa 3 meses -180$<br />
         </p>
       </div>
       <div class="card__footer">
-        <div class="card__price">$129.99 MXN</div>
-        <button (click)="abrirContacto('Paquete Premium')">
+        <div class="card__price">Variados</div>
+        <button (click)="abrirContacto('Hola para el servicio de HBO MAX')">
           <span>Solicitar</span>
         </button>
       </div>
     </div>
   </div>
 
+  
   <!-- Cofres + Logros -->
   <div class="card">
     <div class="card__shine"></div>
@@ -113,7 +116,7 @@
       <div class="card__badge">Nuevo</div>
       <div class="card__image">
         <img
-          src="/img/Paimon2.png"
+          src="/img/LogoSpotify.png"
           alt="Cofres y Logros"
           style="
             width: 100%;
@@ -124,16 +127,15 @@
         />
       </div>
       <div class="card__text" style="text-align: center">
-        <p class="card__title">Cofres + Logros</p>
+        <p class="card__title">Spotify</p>
         <p class="card__description">
-          ✔️ Rutas de exploración<br />
-          ✔️ Desbloqueo de cofres y logros<br />
-          ✔️ Desde $50 MXN
+          ✔️ 1 mes - 62$<br />
+          ✔️ 3 meses - 150$<br />
         </p>
       </div>
       <div class="card__footer">
-        <div class="card__price">Desde $49.99 MXN</div>
-        <button (click)="abrirContacto('Cofres + Logros')">
+        <div class="card__price">Desde $62 MXN</div>
+        <button (click)="abrirContacto('Hola para el servicio de Spotify')">
           <span>Solicitar</span>
         </button>
       </div>
@@ -148,6 +150,211 @@
       <div class="card__badge">Nuevo</div>
       <div class="card__image">
         <img
+          src="/img/LogoYoutube.png"
+          alt="Subida de personajes"
+          style="
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 12px;
+          "
+        />
+      </div>
+      <div class="card__text" style="text-align: center">
+        <p class="card__title">YouTube Premium</p>
+        <p class="card__description">
+          ✔️ 1 mes - 52$ <br />
+          ✔️ 3 meses 130 <br />
+        </p>
+      </div>
+      <div class="card__footer">
+        <div class="card__price">Desde $52 MXN</div>
+        <button (click)="abrirContacto('Hola para el servicio de Youtube Premium')">
+          <span>Solicitar</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Subida de personajes -->
+  <div class="card">
+    <div class="card__shine"></div>
+    <div class="card__glow"></div>
+    <div class="card__content">
+      <div class="card__badge">Nuevo</div>
+      <div class="card__image">
+        <img
+          src="/img/LogoApple.png"
+          alt="Subida de personajes"
+          style="
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 12px;
+          "
+        />
+      </div>
+      <div class="card__text" style="text-align: center">
+        <p class="card__title">Apple Music</p>
+        <p class="card__description">
+          ✔️ 1 mes - 70$ <br />
+        </p>
+      </div>
+      <div class="card__footer">
+        <div class="card__price">Todos 1 mes</div>
+        <button (click)="abrirContacto('Hola para el servicio de Youtube Premium')">
+          <span>Solicitar</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+<!-- Subida de personajes -->
+  <div class="card">
+    <div class="card__shine"></div>
+    <div class="card__glow"></div>
+    <div class="card__content">
+      <div class="card__badge">Nuevo</div>
+      <div class="card__image">
+        <img
+          src="/img/LogoPrime.png"
+          alt="Subida de personajes"
+          style="
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 12px;
+          "
+        />
+      </div>
+      <div class="card__text" style="text-align: center">
+        <p class="card__title">Prime Video</p>
+        <p class="card__description">
+          ✔️ 1 perfil - 42$ <br />
+          ✔️ 1 perfil (3 meses) - 90$ <br />
+        </p>
+      </div>
+      <div class="card__footer">
+        <div class="card__price">Variados</div>
+        <button (click)="abrirContacto('Hola para el servicio de Prime Video')">
+          <span>Solicitar</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Subida de personajes -->
+  <div class="card">
+    <div class="card__shine"></div>
+    <div class="card__glow"></div>
+    <div class="card__content">
+      <div class="card__badge">Nuevo</div>
+      <div class="card__image">
+        <img
+          src="/img/logoParamount.png"
+          alt="Subida de personajes"
+          style="
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 12px;
+          "
+        />
+      </div>
+      <div class="card__text" style="text-align: center">
+        <p class="card__title">Paramount+</p>
+        <p class="card__description">
+          ✔️ 1 perfil - 42$ <br />
+          ✔️ Completa - 110$ <br />
+        </p>
+      </div>
+      <div class="card__footer">
+        <div class="card__price">Todos un mes</div>
+        <button (click)="abrirContacto('Hola para el servicio de Paramount+')">
+          <span>Solicitar</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Subida de personajes -->
+  <div class="card">
+    <div class="card__shine"></div>
+    <div class="card__glow"></div>
+    <div class="card__content">
+      <div class="card__badge">Nuevo</div>
+      <div class="card__image">
+        <img
+          src="/img/LogoVix.png"
+          alt="Subida de personajes"
+          style="
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 12px;
+          "
+        />
+      </div>
+      <div class="card__text" style="text-align: center">
+        <p class="card__title">Vix</p>
+        <p class="card__description">
+          ✔️ 1 perfil - 40$ <br />
+          ✔️ Completa - 79$ <br />
+        </p>
+      </div>
+      <div class="card__footer">
+        <div class="card__price">Todos un mes</div>
+        <button (click)="abrirContacto('Hola para el servicio de Vix')">
+          <span>Solicitar</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Subida de personajes -->
+  <div class="card">
+    <div class="card__shine"></div>
+    <div class="card__glow"></div>
+    <div class="card__content">
+      <div class="card__badge">Nuevo</div>
+      <div class="card__image">
+        <img
+          src="/img/LogoCrunchiroll.png"
+          alt="Subida de personajes"
+          style="
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 12px;
+          "
+        />
+      </div>
+      <div class="card__text" style="text-align: center">
+        <p class="card__title">Crunchyroll</p>
+        <p class="card__description">
+          ✔️ 1 perfil - 42$ <br />
+          ✔️ 1 perfil (3 meses) - 100$ <br />
+          ✔️ Completa - 50$ <br />
+        </p>
+      </div>
+      <div class="card__footer">
+        <div class="card__price">Variados</div>
+        <button (click)="abrirContacto('Hola para el servicio de Crunchyroll')">
+          <span>Solicitar</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+    <!-- Subida de personajes -->
+  <div class="card">
+    <div class="card__shine"></div>
+    <div class="card__glow"></div>
+    <div class="card__content">
+      <div class="card__badge">Importante</div>
+      <div class="card__image">
+        <img
           src="/img/Paimon3.png"
           alt="Subida de personajes"
           style="
@@ -159,19 +366,23 @@
         />
       </div>
       <div class="card__text" style="text-align: center">
-        <p class="card__title">Subida de personajes</p>
+        <p class="card__title">Pregunte por nuestros demas servicios</p>
         <p class="card__description">
-          ✔️ Farmeo de artefactos<br />
-          ✔️ Resina disponible<br />
-          ✔️ Desde $60 MXN
+          ✔️ PorHub <br />
+          ✔️ Xbox Game Pass Ultimate <br />
+          ✔️ Chatgpt Plus <br />
+          ✔️ Entre muchas mas <br />
         </p>
       </div>
       <div class="card__footer">
-        <div class="card__price">Desde $59.99 MXN</div>
-        <button (click)="abrirContacto('Subida de personajes')">
+        <div class="card__price">Variados</div>
+        <button (click)="abrirContacto('Hola ¿Que otros servicios tiene?')">
           <span>Solicitar</span>
         </button>
       </div>
     </div>
   </div>
+
+
+
 </div>

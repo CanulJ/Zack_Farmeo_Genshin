@@ -1,8 +1,6 @@
 import { Routes } from '@angular/router';
 import { InicioComponent } from './Pages/inicio/inicio.component';
 import { TarjetasComponent } from './Pages/tarjetas/tarjetas.component';
-import { RecomendacionesComponent } from './Pages/recomendaciones/recomendaciones.component';
-import { ConocenosComponent } from './Pages/conocenos/conocenos.component';
 import { ProcesoComponent } from './Pages/proceso/proceso.component';
 
 export const routes: Routes = [
@@ -12,10 +10,6 @@ export const routes: Routes = [
     {path: 'inicio',component:InicioComponent},
 
     {path: 'tarjetas',component:TarjetasComponent},
-
-    {path: 'recomendaciones',component:RecomendacionesComponent},
-
-    {path: 'conocenos',component:ConocenosComponent},
 
     {path: 'proceso',component:ProcesoComponent}
 
